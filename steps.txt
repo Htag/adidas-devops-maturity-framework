@@ -1,0 +1,19 @@
+https://hevodata.com/learn/jenkins-github-webhook/#:~:text=Jenkins%20GitHub%20Webhook%20is%20used,there%20are%20no%20errors%20detected
+
+
+
+
+git clone https://github.com/Htag/adidas-devops-maturity-framework.git
+
+git branch --show-current
+
+git branch mhlo
+
+git checkout mhlo
+
+git add .
+
+git commit -m "Added Jenkisfile and steps.txt"
+
+git push origin mhlo
+

@@ -12,7 +12,6 @@ Based in the C.A.L.M.S. definition of DevOps, the framework defines a set of cap
 guidelines that when adopted, increases efficiency (speed, cost...), effectiveness (quality...)
 and happiness of the team.
 
-*
 * <b>C</b>ulture
 * <b>A</b>utomation
 * <b>L</b>ean

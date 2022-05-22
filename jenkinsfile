@@ -1,11 +1,11 @@
-properties([pipelineTriggers([githubPush()])])
-
-stages {
-  stage('Pipeline initialisation') {
-    steps {
-    sh '''
-    echo "Hello"
-    '''
+    agent any 
+    stages {
+        stage('Pipeline initialisation') {
+            steps {
+                sh '''
+                echo "Hello"
+                '''
+            }
+        }
     }
-  }
 }

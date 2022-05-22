@@ -1,1 +1,11 @@
 properties([pipelineTriggers([githubPush()])])
+
+stages {
+  stage('Pipreline initialisation') {
+    steps {
+    sh '''
+    echo "Hello"
+    '''
+    }
+  }
+}

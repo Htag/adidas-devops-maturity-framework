@@ -3,9 +3,33 @@ properties([pipelineTriggers([githubPush()])])
 stages {
   stage('Pipeline initialisation') {
     steps {
-    sh '''
-    echo "Hello"
-    '''
+    
     }
   }
+}
+
+pipeline {
+    agent any 
+    stages {
+        stage {
+            sh '''
+            echo "Hello"
+            '''
+        }
+        stage('Build') { 
+            steps {
+                // 
+            }
+        }
+        stage('Test') { 
+            steps {
+                // 
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // 
+            }
+        }
+    }
 }

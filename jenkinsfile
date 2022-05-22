@@ -2,9 +2,11 @@ pipeline {
     agent any 
     stages {
         stage('Pipeline initialisation') {
-            sh '''
-            echo "Hello"
-            '''
+            step {
+                sh '''
+                echo "Hello"
+                '''
+            }
         }
     }
 }

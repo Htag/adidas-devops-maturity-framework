@@ -8,20 +8,5 @@ pipeline {
             echo "Hello"
             '''
         }
-        stage('Build') { 
-            steps {
-                // 
-            }
-        }
-        stage('Test') { 
-            steps {
-                // 
-            }
-        }
-        stage('Deploy') { 
-            steps {
-                // 
-            }
-        }
     }
 }
